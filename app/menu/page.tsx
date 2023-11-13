@@ -1,6 +1,6 @@
 import styles from './page.module.css'
 
-const URL = 'http://127.0.0.1:8000/api/pizzas' // TODO: replace with real API
+const URL = 'https://tyv1.pythonanywhere.com/api/pizzas/'
 
 async function getData() {
   const res = await fetch(URL)
