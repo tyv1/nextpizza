@@ -69,9 +69,7 @@ export default function Home() {
               <textarea id="message" name="message" rows={5} className="w-full border border-gray-400 p-2 rounded-lg"></textarea>
             </div>
             <div className="col-span-2">
-              <button type="submit" className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded">
-                Send Message
-              </button>
+              <Button>Send Message</Button>
             </div>
           </form>
         </div>
