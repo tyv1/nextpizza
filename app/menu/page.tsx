@@ -18,8 +18,8 @@ export default async function Home() {
   const data = await getData()
 
     return (
-      <main className="min-h-screen">
-          <h1 className="text-6xl font-bold text-center">Menu</h1>
+      <main className={styles.body}>
+          <h1 className={styles.title}>Menu</h1>
           <div className={styles.list}>
             {data.map((pizza: any) => (
               <div className={styles.item} key={pizza.id}>
