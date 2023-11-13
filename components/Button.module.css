@@ -1,0 +1,15 @@
+.button {
+    width: 10%;
+    background-color: var(--success);
+    padding: 10px;
+    border: 1px solid var(--dark-shades);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--dark-accent);
+    color: white;
+}

@@ -1,3 +1,4 @@
+import Button from '@/components/Button'
 import styles from './page.module.css'
 
 const URL = 'https://tyv1.pythonanywhere.com/api/pizzas/'
@@ -32,7 +33,7 @@ export default async function Home() {
                   <img src={pizza.image} alt={pizza.name} />
                 </div>
                 <p className={styles.price}>{pizza.price},-</p>
-                <button className={styles.button}>Add to cart</button>
+                <Button>Add to cart</Button>
               </div>
             ))}
           </div>

@@ -45,17 +45,3 @@
     width: 5%;
 }
 
-.button {
-    width: 10%;
-    background-color: #ADD8E6;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #6CA6CD;
-}
-
