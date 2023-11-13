@@ -1,3 +1,15 @@
+.body {
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
 .list {
     width: 100%;
     padding-top: 50px;
@@ -18,7 +30,7 @@
 }
 
 .item:hover {
-    background-color: #eee;
+    background-color: var(--light-accent);
 }
 
 .name {
@@ -44,18 +56,3 @@
 .price {
     width: 5%;
 }
-
-.button {
-    width: 10%;
-    background-color: #ADD8E6;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #6CA6CD;
-}
-
