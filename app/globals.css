@@ -9,7 +9,7 @@
   --background-end-rgb: 255, 255, 255;
 
   --light-shades: #FEFAE0;
-  --light-accent: #999880;
+  --light-accent: #D6D6A6;
   --main-brand: #CCA875;
   --dark-accent: #816963;
   --dark-shades: #694A53;
@@ -18,12 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--light-shades);
 }
 
 header {
@@ -33,6 +28,10 @@ header {
   margin-right: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
 
   display: flex;
   justify-content: space-around;
